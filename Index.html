@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio One Oracle Next Education</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 class="titulo">Desafio One Oracle Next Education</h1>
+    
+    <img src="imagem/meninalupa-removebg-preview.png" alt="Descrição da Imagem" class="imagem-destaque">
+
+    <p class="instrucoes">Digite apenas letras minúsculas e sem acentos:</p>
+    <textarea id="inputText" class="textarea" placeholder="Digite o texto aqui..." oninput="limparResultado()"></textarea>
+    <br>
+    <button id="btnCriptografar" class="botao" onclick="criptografar()">Criptografar</button>
+    <button id="btnDescriptografar" class="botao" onclick="descriptografar()">Descriptografar</button>
+    <button id="btnCopiar" class="botao" onclick="copiarTexto()">Copiar</button>
+    <br>
+    <textarea id="resultText" class="textarea" placeholder="Resultado..." readonly>Nenhuma mensagem encontrada, digite um texto que você deseja criptografar ou descriptografar.</textarea>
+
+    <script src="script.js"></script>
+</body>
+</html>
